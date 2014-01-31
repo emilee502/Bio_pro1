@@ -38,6 +38,8 @@ h1 {
 h2 {
   position: relative;
   float: left;
+  margin-left: 30px;
+  color: white;
 }
 
 ul {
@@ -52,8 +54,28 @@ li {
   padding: 20px 0px;
   margin: 0px 20px;
   text-align: center;
-  border: 5px solid black;
   background: #94dbff;
+}
+
+a {
+  color: rgba(94, 0, 124, 1);
+  background: #fff;
+  padding: 20px;
+  border: 5px solid rgba(94, 0, 124, 1);
+}
+
+a:visited {
+  color: #fff;
+  background: rgba(94, 0, 124, 1);
+  padding: 20px;
+  border: 5px solid #fff;
+}
+
+a:hover {
+  color: #fff;
+  background: rgba(94, 0, 124, 1);
+  padding: 20px;
+  border: 5px solid #fff;
 }
 
 .second {
@@ -64,17 +86,4 @@ li {
   float: left;
   position: relative;
   margin: 0 15px 0 20px;
-}
-
-a {
-  color: #00aeff;
-  background: #d1d1d1;
-  padding: 20px;
-}
-
-a:hover {
-  color: #000;
-  position: relative;
-  bottom: -5px;
-  border: 5px double blue;
 }
