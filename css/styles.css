@@ -1,14 +1,7 @@
 /* Your Website Styles */
 
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
-
 body {
   background: url(http://allenranchweddings.files.wordpress.com/2013/01/2woodmp-background-tile.jpg?w=690);
-/* Change to 1000px */
   width: 1000px;
   margin: auto;
 }
@@ -57,7 +50,7 @@ li {
   background: #94dbff;
 }
 
-a {
+a:link {
   color: rgba(94, 0, 124, 1);
   background: #fff;
   padding: 20px;
@@ -65,10 +58,10 @@ a {
 }
 
 a:visited {
-  color: #fff;
-  background: rgba(94, 0, 124, 1);
+  color: rgba(94, 0, 124, 1);
+  background: rgba(100, 100, 100, .2);
   padding: 20px;
-  border: 5px solid #fff;
+  border: 5px solid rgba(94, 0, 124, 1);
 }
 
 a:hover {
@@ -76,6 +69,8 @@ a:hover {
   background: rgba(94, 0, 124, 1);
   padding: 20px;
   border: 5px solid #fff;
+  position: relative;
+  bottom: -2px;
 }
 
 .second {
