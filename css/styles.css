@@ -5,3 +5,76 @@
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+body {
+  background: url(http://allenranchweddings.files.wordpress.com/2013/01/2woodmp-background-tile.jpg?w=690);
+/* Change to 1000px */
+  width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  color: #1f001f;
+  background: #d1d1d1;
+}
+
+.head {
+  color: white;
+}
+
+.opener {
+  float: left;
+  position: relative;
+  margin: 0 15px 0 10px;
+  z-index: 100;
+}
+
+.begining {
+  position: relative;
+  background: rgba(94, 0, 124, 0.7);
+  padding: 10px;
+}
+
+h2 {
+  position: relative;
+  float: left;
+}
+
+ul {
+  text-align: center;
+  padding: none;
+  margin: 35px;
+}
+
+li {
+  font-color: #000;
+  display: inline;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  text-align: center;
+  border: 5px solid black;
+  background: #94dbff;
+}
+
+.second {
+  background: rgba(94, 0, 124, 0.4);
+}
+
+.learn {
+  float: left;
+  position: relative;
+  margin: 0 15px 0 20px;
+}
+
+a {
+  color: #00aeff;
+  background: #d1d1d1;
+  padding: 20px;
+}
+
+a:hover {
+  color: #000;
+  position: relative;
+  bottom: -5px;
+  border: 5px double blue;
+}
