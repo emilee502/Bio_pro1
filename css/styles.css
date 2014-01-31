@@ -6,6 +6,15 @@ body {
   margin: auto;
 }
 
+.pic {
+	border: 5px solid yellow;
+}
+
+.begining {
+	position: relative;
+	float: right;
+}
+
 h1 {
   color: #1f001f;
   background: #d1d1d1;
@@ -22,10 +31,9 @@ h1 {
   z-index: 100;
 }
 
-.begining {
-  position: relative;
+#beginning {
   background: rgba(94, 0, 124, 0.7);
-  padding: 10px;
+  padding: 10px 0 48px 0;
 }
 
 h2 {
