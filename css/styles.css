@@ -6,10 +6,6 @@ body {
   margin: auto;
 }
 
-.pic {
-	border: 5px solid yellow;
-}
-
 .begining {
 	position: relative;
 	float: right;
@@ -18,10 +14,18 @@ body {
 h1 {
   color: #1f001f;
   background: #d1d1d1;
+  padding-left: 10px;
+  font-family: 'Offside', cursive;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .head {
   color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 .opener {
@@ -34,13 +38,15 @@ h1 {
 #beginning {
   background: rgba(94, 0, 124, 0.7);
   padding: 10px 0 48px 0;
+  height: 286px;
 }
 
 h2 {
   position: relative;
   float: left;
-  margin-left: 30px;
+  margin-left: -1px;
   color: white;
+  font-family: 'Offside', cursive;
 }
 
 ul {
@@ -63,6 +69,7 @@ a:link {
   background: #fff;
   padding: 20px;
   border: 5px solid rgba(94, 0, 124, 1);
+  font-family: 'Paprika', cursive;
 }
 
 a:visited {
@@ -89,4 +96,12 @@ a:hover {
   float: left;
   position: relative;
   margin: 0 15px 0 20px;
+}
+
+h3 {
+  font-family: 'Offside', cursive;
+}
+
+p {
+	font-family: 'Paprika', cursive;
 }
