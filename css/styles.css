@@ -86,10 +86,13 @@ a:hover {
   position: relative;
   bottom: -5px;
   right: -2px;
+  box-shadow: -7px -7px 5px rgba(0, 0, 0, .65);
 }
 
 .second {
   background: rgba(94, 0, 124, 0.4);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .learn {
@@ -110,7 +113,7 @@ h3 {
 
 .fipar {
   margin-top: 0px;
-  font-size: 17px;
+  font-size: 20px;
   text-indent: 40px;
 }
 
@@ -118,6 +121,43 @@ h3 {
   background: lightgray;
   margin: 0 25px 0 40px;
   padding: 5px 10px 5px 10px;
+  box-shadow: 0 0 50px rgba(48, 0, 63, 1);
+}
+
+.believe {
+  float: left;
+  position: relative;
+  margin: 0 15px 0 20px;
+  width: 432px;
+  border: 5px solid black;
+}
+
+#believe {
+  font-family: 'Artifika', serif;
+}
+
+.wall {
+  float: left;
+  position: relative;
+  width: 240px;
+  border: 5px solid black;
+  margin: 12px 20px 0 0;
+}
+
+#wall {
+  font-family: 'Artifika', serif;
+}
+
+.girl {
+  float: left;
+  position: relative;
+  width: 130px;
+  border: 5px solid black;
+  margin: 12px 20px 0 0;
+}
+
+#girl {
+  font-family: 'Artifika', serif;
 }
 
 p {
