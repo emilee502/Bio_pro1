@@ -163,3 +163,11 @@ h3 {
 p {
 	font-family: 'Paprika', cursive;
 }
+
+.bg {
+  height: 1000px;
+  position: fixed;
+  top: 0px;
+  left: 110px;
+  z-index: -100000;
+}
