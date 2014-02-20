@@ -25,7 +25,8 @@ h1 {
   padding-left: 20px;
   padding-right: 10px;
   font-weight: lighter;
-  font-size: 20px;
+  font-family: 'Artifika', serif;
+  font-size: 22px;
 }
 
 .opener {
@@ -36,7 +37,7 @@ h1 {
 }
 
 #beginning {
-  background: rgba(94, 0, 124, 0.7);
+  background: rgba(62, 0, 82, 0.7);
   padding: 10px 0 48px 0;
   height: 286px;
 }
@@ -110,6 +111,7 @@ h3 {
   margin-top: 0px;
   font-size: 20px;
   text-indent: 40px;
+  font-family: 'Artifika', serif;
 }
 
 .info {
