@@ -1,7 +1,7 @@
 /* Your Website Styles */
 
 body {
-  background: linear-gradient(to bottom, #EEE8FF 0%, #47214C 100%);
+  background: linear-gradient(to bottom, #F5FFF6 0%, #C2BCB7 100%) no-repeat center center fixed;
   width: 1000px;
   margin: auto;
 }
